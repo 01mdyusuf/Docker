@@ -1,7 +1,7 @@
 <img width="556" height="312" alt="image" src="https://github.com/user-attachments/assets/acad74c5-6df7-4005-b92a-1cdc006259f5" />
 
 # Docker
-My personal notes and cheat sheet on Docker and virtualization fundamentals... Read it as soon asp....
+My personal notes and cheat sheet on Docker and virtualization fundamentals... Read it asp....
 
 **Befor starting Docker we have to understand virtualization and its working for better understanding**
 
