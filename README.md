@@ -1,5 +1,35 @@
-<img width="556" height="312" alt="image" src="https://github.com/user-attachments/assets/acad74c5-6df7-4005-b92a-1cdc006259f5" />
+<img width="1213" height="402" alt="image" src="https://github.com/user-attachments/assets/864a8851-0e7a-4c41-8c2a-09a7dd6b9590" />
 
+---
+# Docker & Virtualization Basics
+
+This repository contains beginner-friendly notes on Docker, Virtualization, Containers, and related DevOps concepts.
+
+
+
+## What You Will Learn
+- What is Virtualization?
+- Difference: VM vs Docker
+- What is Docker Engine & dockerd
+- Docker Images, Containers, Docker Hub
+- Basic Docker commands
+- How to install Docker in Ubuntu
+
+---
+
+## Table of Contents
+1️Introduction to Virtualization  
+2️ Docker Basics  
+3️ Docker Installation  
+4️ Docker Components  
+5️ Cheat Sheet / Study Notes  
+6️ Examples (Coming Soon)
+
+---
+
+👇 **Your Docker Notes Continue Below**
+
+---
 # Docker
 My personal notes and cheat sheet on Docker and virtualization fundamentals... Read it asp....
 
@@ -56,6 +86,9 @@ A software called a **Hypervisor** divides the main system’s resources **(CPU,
     
 **5️You can start, stop, delete containers anytime easily**
 
+<img width="1213" height="378" alt="image" src="https://github.com/user-attachments/assets/0cc888a4-2a7a-475d-9408-1e5e4a379348" />
+
+
 # Terms&Components of Docker
 **Docker Image**
 - An image is a read-only blueprint to create containers
@@ -88,22 +121,29 @@ If you are a developer or a system administrator, you undoubtedly come across a 
 
 <img width="577" height="503" alt="image" src="https://github.com/user-attachments/assets/7ac34299-8a9f-4441-ba93-cc605d53fc3d" />
 
+---
 
 # To install docker engine :
 
 Docker is available for different platforms. To install docker in ubuntu, you can follow the instructions as :
+
+---
+
 ### Update the apt package index ###
 
 $ sudo apt-get update
 
 - Always update before installing.
   
+---
+
 ### Install packages to allow apt to use a repository over HTTPS ###
 
 $ sudo apt install ca-certificates curl gnupg lsb-release
 
 - This allows apt to use Docker’s repo securely.
-    
+  
+---    
 ### Add Docker’s official GPG key ####
 
 $ sudo mkdir -p /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
@@ -111,6 +151,7 @@ $ sudo mkdir -p /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/u
 
 - This ensures packages you install come from Docker.
   
+---  
 ### Add the Docker repository ###
 
 echo \
@@ -119,6 +160,7 @@ echo \
 
   - Now Ubuntu knows where to fetch Docker from.
     
+---
 ### Update apt package index and install docker ###
 
 $ sudo apt update
@@ -128,7 +170,8 @@ $ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin do
 - docker-ce (Engine)
 - docker-ce-cli (command line)
 - containerd.io (container runtime)
-
+  
+---
 ### Test your Docker ###
 
 $ sudo docker run hello-world
