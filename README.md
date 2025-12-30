@@ -12,7 +12,6 @@ This repository contains beginner-friendly notes on Docker, Virtualization, Cont
 - Difference: VM vs Docker
 - What is Docker Engine & dockerd
 - Docker Images, Containers, Docker Hub
-- Basic Docker commands
 - How to install Docker in Ubuntu
 
 ---
@@ -22,8 +21,7 @@ This repository contains beginner-friendly notes on Docker, Virtualization, Cont
 2️ Docker Basics  
 3️ Docker Installation  
 4️ Docker Components  
-5️ Cheat Sheet / Study Notes  
-6️ Examples (Coming Soon)
+5️ Examples
 
 ---
 
